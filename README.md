@@ -39,6 +39,60 @@ The environment includes:
 
 ---
 
+---
+
+## Sysmon + Wazuh Threat Hunting
+
+This section demonstrates the integration between Sysmon and Wazuh SIEM for endpoint telemetry collection and threat detection.
+
+### Objective
+
+Monitor suspicious PowerShell activity and analyze process creation events using Sysmon Event ID 1.
+
+### Simulated Activity
+
+```powershell
+powershell -w hidden -ep bypass
+```
+
+### Detection Pipeline
+
+Windows Endpoint
+→ Sysmon
+→ Wazuh Agent
+→ Wazuh SIEM
+→ MITRE ATT&CK Mapping
+
+### Detection Results
+
+* PowerShell execution detected
+* Sysmon Event ID 1 generated
+* Wazuh SIEM correlated the event
+* MITRE ATT&CK technique identified
+* Threat Hunting performed through Wazuh Dashboard
+
+### MITRE ATT&CK Techniques
+
+* T1059.001 — PowerShell
+
+### Skills Practiced
+
+* Threat Hunting
+* Endpoint Telemetry Analysis
+* SIEM Monitoring
+* Event Correlation
+* PowerShell Detection
+* MITRE ATT&CK Analysis
+* Detection Engineering
+
+### Screenshots
+
+#### Sysmon Event ID 1
+
+#### Wazuh SIEM Dashboard
+
+#### Security Alerts and MITRE Mapping
+
 ## Screenshots
 
 ### Wazuh Dashboard
