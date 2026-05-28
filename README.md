@@ -39,8 +39,6 @@ The environment includes:
 
 ---
 
----
-
 ## Sysmon + Wazuh Threat Hunting
 
 This section demonstrates the integration between Sysmon and Wazuh SIEM for endpoint telemetry collection and threat detection.
