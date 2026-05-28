@@ -101,6 +101,18 @@ Windows Endpoint
 ### Security Events Monitoring
 <img width="100%" src="./Captura de tela 2026-05-28 095444.png">
 
+#### Sysmon Event ID 1
+
+![Sysmon Event](sysmon-event-id1.png)
+
+#### Wazuh SIEM Dashboard
+
+![Wazuh Dashboard](wazuh-dashboard.png)
+
+#### Security Alerts and MITRE Mapping
+
+![MITRE Alerts](mitre-alerts.png)
+
 ---
 
 ## Future Improvements
